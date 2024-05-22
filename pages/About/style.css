@@ -1,0 +1,122 @@
+body{
+    margin: 0px;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 16px;
+    background: linear-gradient(to right, #430371, #0c0214);
+}
+
+
+.header {
+    background: linear-gradient(to right, #af40fe,#430371, #350f51, Black);
+    display: flex;
+    height: 100px;
+
+}
+
+
+
+.title {
+    font-family: "Archivo Black", sans-serif;
+    font-style: italic;
+    min-width: 450px;
+    margin-left: 50px;
+    align-items: center;
+    color: white;
+}
+
+.menu {
+    font-size: 18px;
+    color:white;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.conteudo {
+    display: flex;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px;
+    display: flex;
+    font-size: 26px;
+    color: white;
+}
+
+.perfil {
+    align-items: center;
+    font-family: "Archivo Black", sans-serif;
+    font-size: 32px;
+    min-width: 1000px;
+    align-items: start;
+    margin-left: 100px;
+    height: 400px;
+    color: #d39dfa;
+
+}
+
+.images {
+    min-width: 400px;
+    align-items:center;
+    display: flex;
+    /* background-color: aliceblue; */
+}
+
+#luis {
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+}
+
+
+.icons {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    height: 50px;
+    width: 50px;
+}
+
+#item3 {
+    font-size: 16px;
+}
+
+#git {
+    padding: 10px;
+    height: 40px;
+    width: 40px;
+}
+
+#linke {
+    padding: 10px;
+    height: 40px;
+    width: 40px;
+}
+
+#insta {
+    padding: 10px;
+    height: 40px;
+    width: 40px;
+}
+
+
+.buttons {
+    display: flex;
+    background-color: aqua;
+    font-size: 20px;
+    border-radius: 50%;
+}
+
+#contact {
+    margin-left: 400px;
+    border-radius: 10%;
+    border: none;
+}
+
+a {
+    color: white;
+}
