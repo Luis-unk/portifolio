@@ -112,3 +112,52 @@ body{
 a {
     color: white;
 }
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 40px;
+    gap: 20px;
+}
+
+.project-box {
+    align-items: center;
+    margin-top: 40px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: calc(33.333% - 20px);
+    box-sizing: border-box;
+}
+
+.project-box h3 {
+    margin-top: 0;
+}
+
+.project-box p {
+    color: #666;
+}
+
+.project-box a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.project-box a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .project-box {
+        width: calc(50% - 20px);
+    }
+}
+
+@media (max-width: 480px) {
+    .project-box {
+        width: 100%;
+    }
+}
